@@ -4,11 +4,11 @@ import React from 'react';
 const Navbar = () => {
   return (
     <Flex>
-      <Text>CalmWeather</Text>
+      <Text bg="primary">CalmWeather</Text>
       <Spacer></Spacer>
-      <Text>Home</Text>
-      <Text>Random</Text>
-      <Text>City Picker</Text>
+      <Text bg="secondary">Home</Text>
+      <Text bg="black">Random</Text>
+      <Text bg="highlight">City Picker</Text>
     </Flex>
   );
 };
