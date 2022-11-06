@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
-  const [data, setData] = useState([]) as any;
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
